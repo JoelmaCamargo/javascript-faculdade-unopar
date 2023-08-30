@@ -13,7 +13,6 @@ if(false){
 
 //se x for um número par
 x = 1;
-
 if(x % 2 == 0){
     console.log("A variável x é um número par");
 }
@@ -26,7 +25,6 @@ if(x % 2 == 0){
 
 //se x for um número ímpar
 x = 1;
-
 if(x % 2 == 1){
     console.log("A variável x é um número ímpar");
 }
