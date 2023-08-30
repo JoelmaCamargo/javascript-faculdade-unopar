@@ -13,3 +13,18 @@ else{
     console.log("Aluno está fora do padrão escolar");
 }
 console.log("FIM")
+
+
+//Exemplo 2 
+ var x = 10;
+
+ if((x % 2 == 1)&&(x > 0)){
+    console.log(x + " é ímpar e positivo!");
+ }
+ else if(x > 0){
+    console.log(x + " é maior do que zero!");
+ }
+ else{
+    console.log(x + " é par ou negativo");
+ }
+ console.log("Aqui")
