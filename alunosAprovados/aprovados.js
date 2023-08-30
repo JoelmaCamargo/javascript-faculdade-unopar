@@ -17,8 +17,12 @@ function primeiraEtapa(acertos_na_prova, semestres_cursados)
     {
         return "Aprovado";
     }
+    else if(nota >= nota_minima_aprovacao){
+        return "Você foi adicionado ao nosso banco de currículos";
+    }
     else
     {
         return "Reprovado"
     }
 }
+console.log(primeiraEtapa(20,2));
