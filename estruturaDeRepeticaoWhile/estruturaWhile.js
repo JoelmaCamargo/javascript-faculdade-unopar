@@ -44,3 +44,16 @@ do{
     console.log(i); //imprime os dados na tela
     i++;            //incrementação: +1
 }while(i < 5);     //condição de parada
+
+var i = 10;
+
+do{
+    console.log("do", i);
+    i++;
+}while(i < 5);   //executa pelo menos 1 vez o bloco, por conta do "do"
+
+i = 10;
+
+while(i < 5){    //condição é falsa
+    console.log("while", i);
+}
